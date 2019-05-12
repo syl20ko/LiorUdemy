@@ -1,0 +1,54 @@
+Script démarré sur 2019-05-12 11:45:07+0200
+]0;syl20ko@syl20ko-HP: /media/www-dev/public/formation-symfony[01;32msyl20ko@syl20ko-HP[00m:[01;34m/media/www-dev/public/formation-symfony[00m$ php bin/console server:run
+
+[33mIn FrameworkExtension.php line 168:[39m
+[37;41m                                                                                                                                            [39;49m
+[37;41m  Translation support cannot be enabled as the Translation component is not installed. Try running "composer require symfony/translation".  [39;49m
+[37;41m                                                                                                                                            [39;49m
+
+]0;syl20ko@syl20ko-HP: /media/www-dev/public/formation-symfony[01;32msyl20ko@syl20ko-HP[00m:[01;34m/media/www-dev/public/formation-symfony[00m$ composer require symfony/translation
+[32m./composer.json has been updated[39m
+[32mLoading composer repositories with package information[39m
+[32mUpdating dependencies (including require-dev)[39m
+[32mPackage operations: 1 install, 0 updates, 0 removals[39m
+  - Installing [32msymfony/translation[39m ([33mv4.2.8[39m): Loading from cache
+[30;43mPackage symfony/lts is abandoned, you should avoid using it. Use symfony/flex instead.[39;49m
+[32mWriting lock file[39m
+[32mGenerating autoload files[39m
+[32mocramius/package-versions:[39m  Generating version class...
+[32mocramius/package-versions:[39m ...done generating version class
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+]0;syl20ko@syl20ko-HP: /media/www-dev/public/formation-symfony[01;32msyl20ko@syl20ko-HP[00m:[01;34m/media/www-dev/public/formation-symfony[00m$ php bin/console sev[Krver;[K:run
+
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] Server listening on http://127.0.0.1:8000                                                                         [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[39;49m // [39;49mQuit the server with CONTROL-C.                                                                                     
+
+PHP 7.3.4-1+ubuntu18.04.1+deb.sury.org+3 Development Server started at Sun May 12 11:46:49 2019
+Listening on http://127.0.0.1:8000
+Document root is /media/www-dev/public/formation-symfony/public
+Press Ctrl-C to quit.
+[Sun May 12 11:46:58 2019] [31m127.0.0.1:41630 [500]: /[0m
+[Sun May 12 11:46:59 2019] [32m127.0.0.1:41638 [200]: /_wdt/bead78[0m
+[Sun May 12 11:52:59 2019] [32m127.0.0.1:41708 [200]: /[0m
+[Sun May 12 11:52:59 2019] [32m127.0.0.1:41712 [200]: /build/css/app.ad1a3094.css[0m
+[Sun May 12 11:52:59 2019] [32m127.0.0.1:41714 [200]: /build/js/app.7a39b1e5.js[0m
+[Sun May 12 11:53:00 2019] [32m127.0.0.1:41722 [200]: /_wdt/1cf74f[0m
+[Sun May 12 11:53:09 2019] [32m127.0.0.1:41724 [200]: /[0m
+[Sun May 12 11:53:09 2019] [32m127.0.0.1:41728 [200]: /build/css/app.ad1a3094.css[0m
+[Sun May 12 11:53:09 2019] [32m127.0.0.1:41730 [200]: /build/js/app.7a39b1e5.js[0m
+[Sun May 12 11:53:09 2019] [32m127.0.0.1:41732 [200]: /_wdt/18b491[0m
+[Sun May 12 11:53:10 2019] [32m127.0.0.1:41734 [200]: /ads[0m
+[Sun May 12 11:53:10 2019] [32m127.0.0.1:41738 [200]: /build/css/app.ad1a3094.css[0m
+[Sun May 12 11:53:10 2019] [32m127.0.0.1:41740 [200]: /build/js/app.7a39b1e5.js[0m
+[Sun May 12 11:53:11 2019] [32m127.0.0.1:41744 [200]: /_wdt/e6ac7a[0m
+[Sun May 12 11:53:11 2019] [32m127.0.0.1:41746 [200]: /[0m
+[Sun May 12 11:53:11 2019] [32m127.0.0.1:41750 [200]: /build/css/app.ad1a3094.css[0m
+[Sun May 12 11:53:11 2019] [32m127.0.0.1:41752 [200]: /build/js/app.7a39b1e5.js[0m
+[Sun May 12 11:53:12 2019] [32m127.0.0.1:41754 [200]: /_wdt/a8fbdc[0m
+[Sun May 12 11:55:08 2019] [32m127.0.0.1:41772 [200]: /[0m
+[Sun May 12 11:55:08 2019] [3
